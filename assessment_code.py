@@ -177,7 +177,7 @@ def api_page():
 
 # If the app was called from the command line then run the app on TCP port 5002, turning debug messages on
 if __name__ == '__main__':
-  app.run(host='0.0.0.0',port='5050',debug=False,use_reloader=False)
+  app.run(port='5050',debug=False)
 
 
   
